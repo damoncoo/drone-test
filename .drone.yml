@@ -5,7 +5,8 @@ type: exec
 steps:
   - name: pr checks
     commands:
-      - echo "pr checks"
+      - echo "pr checks from"
+      - sh cmd.sh
     when:
       branch:
         - release/*
