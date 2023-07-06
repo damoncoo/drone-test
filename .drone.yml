@@ -6,19 +6,4 @@ steps:
   - name: pr checks
     commands:
       - echo "pr checks"
-    when:
-      branch:
-        - release/*
-        - main
-        - develop
-      event:
-        - pull_request
 
-trigger:
-  branch:
-    - main
-    - develop
-    - release/*
-  event:
-    - push
-    - pull_request
