@@ -6,4 +6,6 @@ steps:
   - name: pr checks
     commands:
       - echo "pr checks"
+      - whoami
+      - pwd
 
