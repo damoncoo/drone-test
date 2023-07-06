@@ -10,6 +10,7 @@ steps:
       - pwd
       - echo "pr checks from"
       - sh cmd.sh      
+      - echo hi
 
 trigger:
   branch:
