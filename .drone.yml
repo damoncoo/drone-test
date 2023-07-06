@@ -7,19 +7,3 @@ steps:
     commands:
       - echo "pr checks from"
       - sh cmd.sh
-    when:
-      branch:
-        - release/*
-        - main
-        - develop
-      event:
-        - pull_request
-
-trigger:
-  branch:
-    - main
-    - develop
-    - release/*
-  event:
-    - push
-    - pull_request
