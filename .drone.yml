@@ -9,3 +9,6 @@ steps:
       - whoami
       - pwd
 
+trigger:
+  branch:
+    - main
